@@ -1,0 +1,341 @@
+{
+    "products": [
+      {
+        "product_id": "P20022",
+        "product_title": "OnePlus 9 Pro",
+        "product_image": "https://i.ibb.co.com/yFZKhLh/One-Plus-9-Pro.webp",
+        "category": "Phones",
+        "price": 969.99,
+        "description": "High-performance smartphone with Hasselblad camera and 120Hz Fluid Display.",
+        "Specification": [
+          "Snapdragon 888",
+          "6.7-inch 120Hz AMOLED display",
+          "48MP quad camera",
+          "4500mAh battery"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": "P20023",
+        "product_title": "Xiaomi Mi 11 Ultra",
+        "product_image": "https://i.ibb.co.com/ckGVBsj/Xiaomi-Mi-11-Ultra.webp",
+        "category": "Phones",
+        "price": 1199.99,
+        "description": "Flagship smartphone with impressive 50MP camera and secondary rear display.",
+        "Specification": [
+          "Snapdragon 888",
+          "6.81-inch WQHD+ display",
+          "50MP triple camera",
+          "5000mAh battery"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },      
+      {
+        "product_id": "14",
+        "product_title": "Huawei P40 Pro",
+        "product_image": "https://i.ibb.co.com/BPWqjSS/Huawei-P40-Pro.webp",
+        "category": "Phones",
+        "price": 699.99,
+        "description": "High-end smartphone with Leica Quad Camera system.",
+        "Specification": [
+          "Kirin 990 5G",
+          "6.58-inch OLED display",
+          "50MP quad camera",
+          "4200mAh battery"
+        ],
+        "availability": false,
+        "rating": 4.3
+      },
+      {
+        "product_id": "1",
+        "product_title": "Gaming Laptop",
+        "product_image": "https://i.ibb.co.com/3pSgshd/Gaming-Laptop.webp",
+        "category": "Laptop",
+        "price": 1199.99,
+        "description": "High-performance gaming laptop with NVIDIA graphics and Intel i7 processor.",
+        "Specification": [
+          "16GB RAM",
+          "512GB SSD",
+          "Intel Core i7",
+          "NVIDIA GTX 1660Ti"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "2",
+        "product_title": "iPhone 13 Pro",
+        "product_image": "https://i.ibb.co.com/DzZw2dK/i-Phone-13-Pro.webp",
+        "category": "iPhones",
+        "price": 999.99,
+        "description": "The latest iPhone with A15 Bionic chip and Pro camera system.",
+        "Specification": [
+          "A15 Bionic chip",
+          "6.1-inch display",
+          "5G capable",
+          "Triple-camera system"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "3",
+        "product_title": "Apple MacBook Air M1",
+        "product_image": "https://i.ibb.co.com/dbNkTy1/Apple-Mac-Book-Air-M1.webp",
+        "category": "MacBooks",
+        "price": 899.99,
+        "description": "Apple's thin and light MacBook with the powerful M1 chip.",
+        "Specification": [
+          "Apple M1 chip",
+          "13-inch Retina display",
+          "256GB SSD",
+          "8GB RAM"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": "4",
+        "product_title": "Samsung Galaxy S21",
+        "product_image": "https://i.ibb.co.com/GHCxtJ9/Samsung-Galaxy-S21.webp",
+        "category": "Phones",
+        "price": 799.99,
+        "description": "Samsung's flagship smartphone with high-resolution camera and 120Hz display.",
+        "Specification": [
+          "Exynos 2100",
+          "6.2-inch 120Hz display",
+          "64MP camera",
+          "4000mAh battery"
+        ],
+        "availability": false,
+        "rating": 4.5
+      },
+      {
+        "product_id": "5",
+        "product_title": "Apple Watch Series 7",
+        "product_image": "https://i.ibb.co.com/sCtQrx3/Apple-Watch-Series-7.webp",
+        "category": "Smartwatches",
+        "price": 399.99,
+        "description": "The latest Apple Watch with larger display and advanced health monitoring.",
+        "Specification": [
+          "Always-on Retina display",
+          "ECG and Blood Oxygen app",
+          "Swimproof design",
+          "GPS and Cellular"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "6",
+        "product_title": "Sony Alpha a7 III",
+        "product_image": "https://i.ibb.co.com/FgrnBph/Sony-Alpha-a7.webp",
+        "category": "Camera",
+        "price": 1999.99,
+        "description": "Full-frame mirrorless camera with excellent low-light performance.",
+        "Specification": [
+          "24.2MP full-frame sensor",
+          "4K HDR video",
+          "5-axis image stabilization",
+          "693-point AF system"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "7",
+        "product_title": "Dell XPS 13",
+        "product_image": "https://i.ibb.co.com/RNQRs2Y/Dell-XPS-13.webp",
+        "category": "Laptop",
+        "price": 1099.99,
+        "description": "Powerful, ultra-slim laptop with Intel i7 and InfinityEdge display.",
+        "Specification": [
+          "Intel Core i7",
+          "13.4-inch FHD+ display",
+          "16GB RAM",
+          "512GB SSD"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": "8",
+        "product_title": "GoPro HERO10",
+        "product_image": "https://i.ibb.co.com/y09J3sr/Go-Pro-HERO10.webp",
+        "category": "Camera",
+        "price": 499.99,
+        "description": "Versatile action camera with 5.3K video and HyperSmooth stabilization.",
+        "Specification": [
+          "5.3K video at 60fps",
+          "Waterproof",
+          "HyperSmooth 4.0",
+          "23MP photos"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": "9",
+        "product_title": "AirPods Pro",
+        "product_image": "https://example.com/images/airpods_pro.jpg",
+        "category": "Accessories",
+        "price": 249.99,
+        "description": "Active noise-cancelling wireless earbuds from Apple.",
+        "Specification": [
+          "Active noise cancellation",
+          "Transparency mode",
+          "Wireless charging case",
+          "Sweat and water resistant"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "10",
+        "product_title": "Samsung Galaxy Watch 4",
+        "product_image": "https://i.ibb.co.com/zsybjQL/Samsung-Galaxy-Watch-4.webp",
+        "category": "Smartwatches",
+        "price": 249.99,
+        "description": "Advanced fitness tracking smartwatch with Wear OS.",
+        "Specification": [
+          "Wear OS",
+          "Blood oxygen monitoring",
+          "GPS",
+          "Heart rate monitoring"
+        ],
+        "availability": false,
+        "rating": 4.4
+      },
+      {
+        "product_id": "11",
+        "product_title": "Canon EOS R5",
+        "product_image": "https://i.ibb.co.com/zhMT94M/Canon-EOS-R5.webp",
+        "category": "Camera",
+        "price": 3899.99,
+        "description": "Full-frame mirrorless camera with 8K video and high-speed autofocus.",
+        "Specification": [
+          "45MP full-frame sensor",
+          "8K video recording",
+          "Dual Pixel CMOS AF",
+          "5-axis in-body stabilization"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": "12",
+        "product_title": "iPhone SE",
+        "product_image": "https://i.ibb.co.com/WP1x6MW/i-Phone-SE.webp",
+        "category": "iPhones",
+        "price": 399.99,
+        "description": "Affordable iPhone with powerful A13 Bionic chip.",
+        "Specification": [
+          "A13 Bionic chip",
+          "4.7-inch display",
+          "12MP camera",
+          "Touch ID"
+        ],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "product_id": "13",
+        "product_title": "MacBook Pro 14-inch",
+        "product_image": "https://i.ibb.co.com/CmPcJny/Mac-Book-Pro-14-inch.webp",
+        "category": "MacBooks",
+        "price": 1999.99,
+        "description": "Powerful MacBook Pro with M1 Pro chip for professionals.",
+        "Specification": [
+          "M1 Pro chip",
+          "14.2-inch Liquid Retina XDR display",
+          "16GB RAM",
+          "512GB SSD"
+        ],
+        "availability": true,
+        "rating": 4.9
+      },
+      {
+        "product_id": "15",
+        "product_title": "Anker Portable Charger",
+        "product_image": "https://example.com/images/anker_charger.jpg",
+        "category": "Accessories",
+        "price": 29.99,
+        "description": "High-capacity portable charger with PowerIQ technology.",
+        "Specification": [
+          "10000mAh capacity",
+          "PowerIQ",
+          "Dual USB ports",
+          "Compact design"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": "16",
+        "product_title": "Samsung Galaxy Z Fold3",
+        "product_image": "https://i.ibb.co.com/7y6sRzk/Samsung-Galaxy-Z-Fold3.webp",
+        "category": "Phones",
+        "price": 1799.99,
+        "description": "Innovative foldable smartphone with large display and powerful performance.",
+        "Specification": [
+          "7.6-inch foldable display",
+          "Snapdragon 888",
+          "5G capable",
+          "Triple rear camera"
+        ],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+            "product_id": "17",
+            "product_title": "Apple MacBook Pro 16-inch",
+            "product_image": "https://i.ibb.co.com/3Bc0RXg/Apple-Mac-Book-Pro-16-inch.webp",
+            "category": "MacBooks",
+            "price": 2499.99,
+            "description": "Powerful 16-inch MacBook Pro with the M1 Max chip for advanced performance.",
+            "Specification": [
+              "M1 Max chip",
+              "16GB RAM",
+              "1TB SSD",
+              "16-inch Retina display"
+            ],
+            "availability": false,
+            "rating": 4.9
+        },
+        {
+            "product_id": "18",
+            "product_title": "DJI Mavic Air 2 Drone",
+            "product_image": "https://i.ibb.co.com/G9hQxk4/DJI-Mavic-Air-2-Drone.webp",
+            "category": "Camera",
+            "price": 799.99,
+            "description": "Compact drone with 4K camera, 34-minute flight time, and intelligent shooting modes.",
+            "Specification": [
+              "4K video",
+              "48MP photos",
+              "34 minutes flight time",
+              "Obstacle sensing"
+            ],
+            "availability": true,
+            "rating": 4.8
+        },
+        {
+            "product_id": "19",
+            "product_title": "Garmin Forerunner 945",
+            "product_image": "https://i.ibb.co.com/Y8LVQxp/Garmin-Forerunner-945.webp",
+            "category": "Smartwatches",
+            "price": 499.99,
+            "description": "Advanced GPS smartwatch with music, performance metrics, and health tracking.",
+            "Specification": [
+              "GPS and GLONASS",
+              "Music storage",
+              "VO2 max and heart rate monitor",
+              "Water-resistant up to 50m"
+            ],
+            "availability": true,
+            "rating": 4.7
+        }
+          
+    ]
+}  
