@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 
-
 const Dashboard = () => {
     document.title = "Dashboard | Gadget Heaven";
     return (
