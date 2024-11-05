@@ -1,7 +1,8 @@
 import { toast } from "react-toastify";
 
-const getStoredData = () => {
-    let storage = localStorage.getItem('cart-items');
+
+const getStoredWishlist = () => {
+    let storage = localStorage.getItem('wishlist');
     if(storage){
         return JSON.parse(storage);
     }
@@ -10,16 +11,16 @@ const getStoredData = () => {
     }
 }
 
-const addToCart = (data) => {
-    let storedData = getStoredData();
+const addToWishlist = (data) => {
+    let storedData = getStoredWishlist();
     let getOldProductId = data.product_id;
     let id = storedData.map(ids => ids.product_id);
 
     if(!id.includes(getOldProductId)){
         storedData.push(data);
         let stringifiedData = JSON.stringify(storedData);
-        localStorage.setItem("cart-items", stringifiedData);
-        toast.success('Item added to the Cart.', {
+        localStorage.setItem("wishlist", stringifiedData);
+        toast.success('Item added to the Wishlist.', {
             position: "top-center",
             autoClose: 3000,
             hideProgressBar: false,
@@ -32,4 +33,4 @@ const addToCart = (data) => {
     }
 }
 
-export {addToCart, getStoredData};
+export {addToWishlist, getStoredWishlist};

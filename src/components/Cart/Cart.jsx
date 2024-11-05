@@ -1,4 +1,4 @@
-import CartItems from "../CartItems/CartItems";
+import CartItem from "../CartItem/CartItem";
 import { getStoredData } from "../cartStorage";
 import Dashboard from "../Dashboard/Dashboard";
 
@@ -6,7 +6,7 @@ import Dashboard from "../Dashboard/Dashboard";
 const Cart = () => {
     let data = getStoredData();
     let getPrice = data.map(price => price.price);
-    let totalCost = getPrice.reduce((x, y) => x + y);
+    let totalCost = getPrice.reduce((x, y) => x + y, 0);
 
     return (
         <div>
@@ -19,7 +19,7 @@ const Cart = () => {
                     </div>
                 </div>
                 <div className="flex flex-col gap-6 mt-8">
-                    {data.map(singleData => <CartItems key={singleData.product_id} singleData={singleData}></CartItems>)}
+                    {data.map(singleData => <CartItem key={singleData.product_id} singleData={singleData}></CartItem>)}
                 </div>
             </div>
         </div>
