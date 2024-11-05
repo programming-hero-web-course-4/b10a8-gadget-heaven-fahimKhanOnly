@@ -26,7 +26,7 @@ const NavBar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        className="menu text-black menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         <li><NavLink to="/">Home</NavLink></li>
                         <li><NavLink to="/statistics">Statistics</NavLink></li>
                         <li><NavLink to="/dashboard">Dashboard</NavLink></li>
@@ -43,7 +43,7 @@ const NavBar = () => {
                 </div>
                 <div className="navbar-end gap-3">
                     <Link to="/dashboard/cart" className="rounded-full border bg-white text-black p-2.5"><IoCartOutline className="text-lg" /></Link>
-                    <Link className="rounded-full border bg-white text-black p-2.5"><FaRegHeart/></Link>
+                    <Link to="/dashboard/wishlist" className="rounded-full border bg-white text-black p-2.5"><FaRegHeart/></Link>
                 </div>
             </div>
         </div>

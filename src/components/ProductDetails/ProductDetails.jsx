@@ -10,13 +10,10 @@ const ProductDetails = () => {
     let params = useParams();
 
     let findRealData = data.products.find(info => info.product_id == params.product_id);
-    let {product_id, product_title, product_image, price, description, availability, Specification, rating} = findRealData;
+    let {product_title, product_image, price, description, availability, Specification, rating} = findRealData;
 
+    let handleCartItem = id => addToCart(id);
 
-
-    let handleCartItem = id => {
-        addToCart(id);
-    }
     return (
         <div>
             <div className="bg-purple-600 pb-40 mx-8 pt-8 mb-96">
@@ -52,7 +49,7 @@ const ProductDetails = () => {
                             </div>
                                 
                             <div className="flex gap-4 mt-3">
-                                <button onClick={() => handleCartItem(product_id)} className="btn rounded-full font-bold px-6 bg-purple-700 text-white flex items-center hover:border hover:border-purple-700 hover:text-black">Add To Card <IoCartOutline className="text-xl"/></button>
+                                <button onClick={() => handleCartItem(findRealData)} className="btn rounded-full font-bold px-6 bg-purple-700 text-white flex items-center hover:border hover:border-purple-700 hover:text-black">Add To Card <IoCartOutline className="text-xl"/></button>
                                 <button className="border rounded-full"><FaRegHeart className="m-4"/></button>
                             </div>
                         </div>
