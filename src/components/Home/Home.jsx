@@ -3,6 +3,7 @@ import Hero from "../Hero/Hero";
 import Products from "../Products/Products";
 
 const Home = () => {
+    document.title = "Gadgets | Gadget Heaven";
     let data = useLoaderData();
     return (
         <div>

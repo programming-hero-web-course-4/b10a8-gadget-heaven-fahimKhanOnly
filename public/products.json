@@ -1,7 +1,7 @@
 {
     "products": [
       {
-        "product_id": "P20022",
+        "product_id": "1",
         "product_title": "OnePlus 9 Pro",
         "product_image": "https://i.ibb.co.com/yFZKhLh/One-Plus-9-Pro.webp",
         "category": "Phones",
@@ -17,7 +17,7 @@
         "rating": 4.6
       },
       {
-        "product_id": "P20023",
+        "product_id": "2",
         "product_title": "Xiaomi Mi 11 Ultra",
         "product_image": "https://i.ibb.co.com/ckGVBsj/Xiaomi-Mi-11-Ultra.webp",
         "category": "Phones",
@@ -33,7 +33,7 @@
         "rating": 4.7
       },      
       {
-        "product_id": "14",
+        "product_id": "3",
         "product_title": "Huawei P40 Pro",
         "product_image": "https://i.ibb.co.com/BPWqjSS/Huawei-P40-Pro.webp",
         "category": "Phones",
@@ -49,7 +49,7 @@
         "rating": 4.3
       },
       {
-        "product_id": "1",
+        "product_id": "4",
         "product_title": "Gaming Laptop",
         "product_image": "https://i.ibb.co.com/3pSgshd/Gaming-Laptop.webp",
         "category": "Laptop",
@@ -65,7 +65,7 @@
         "rating": 4.7
       },
       {
-        "product_id": "2",
+        "product_id": "5",
         "product_title": "iPhone 13 Pro",
         "product_image": "https://i.ibb.co.com/DzZw2dK/i-Phone-13-Pro.webp",
         "category": "iPhones",
@@ -81,7 +81,7 @@
         "rating": 4.8
       },
       {
-        "product_id": "3",
+        "product_id": "6",
         "product_title": "Apple MacBook Air M1",
         "product_image": "https://i.ibb.co.com/dbNkTy1/Apple-Mac-Book-Air-M1.webp",
         "category": "MacBooks",
@@ -97,7 +97,7 @@
         "rating": 4.9
       },
       {
-        "product_id": "4",
+        "product_id": "7",
         "product_title": "Samsung Galaxy S21",
         "product_image": "https://i.ibb.co.com/GHCxtJ9/Samsung-Galaxy-S21.webp",
         "category": "Phones",
@@ -113,7 +113,7 @@
         "rating": 4.5
       },
       {
-        "product_id": "5",
+        "product_id": "8",
         "product_title": "Apple Watch Series 7",
         "product_image": "https://i.ibb.co.com/sCtQrx3/Apple-Watch-Series-7.webp",
         "category": "Smartwatches",
@@ -129,7 +129,7 @@
         "rating": 4.8
       },
       {
-        "product_id": "6",
+        "product_id": "9",
         "product_title": "Sony Alpha a7 III",
         "product_image": "https://i.ibb.co.com/FgrnBph/Sony-Alpha-a7.webp",
         "category": "Camera",
@@ -145,7 +145,7 @@
         "rating": 4.7
       },
       {
-        "product_id": "7",
+        "product_id": "10",
         "product_title": "Dell XPS 13",
         "product_image": "https://i.ibb.co.com/RNQRs2Y/Dell-XPS-13.webp",
         "category": "Laptop",
@@ -161,7 +161,7 @@
         "rating": 4.6
       },
       {
-        "product_id": "8",
+        "product_id": "11",
         "product_title": "GoPro HERO10",
         "product_image": "https://i.ibb.co.com/y09J3sr/Go-Pro-HERO10.webp",
         "category": "Camera",
@@ -177,23 +177,7 @@
         "rating": 4.6
       },
       {
-        "product_id": "9",
-        "product_title": "AirPods Pro",
-        "product_image": "https://example.com/images/airpods_pro.jpg",
-        "category": "Accessories",
-        "price": 249.99,
-        "description": "Active noise-cancelling wireless earbuds from Apple.",
-        "Specification": [
-          "Active noise cancellation",
-          "Transparency mode",
-          "Wireless charging case",
-          "Sweat and water resistant"
-        ],
-        "availability": true,
-        "rating": 4.7
-      },
-      {
-        "product_id": "10",
+        "product_id": "12",
         "product_title": "Samsung Galaxy Watch 4",
         "product_image": "https://i.ibb.co.com/zsybjQL/Samsung-Galaxy-Watch-4.webp",
         "category": "Smartwatches",
@@ -209,7 +193,7 @@
         "rating": 4.4
       },
       {
-        "product_id": "11",
+        "product_id": "13",
         "product_title": "Canon EOS R5",
         "product_image": "https://i.ibb.co.com/zhMT94M/Canon-EOS-R5.webp",
         "category": "Camera",
@@ -225,7 +209,7 @@
         "rating": 4.9
       },
       {
-        "product_id": "12",
+        "product_id": "14",
         "product_title": "iPhone SE",
         "product_image": "https://i.ibb.co.com/WP1x6MW/i-Phone-SE.webp",
         "category": "iPhones",
@@ -241,7 +225,7 @@
         "rating": 4.5
       },
       {
-        "product_id": "13",
+        "product_id": "15",
         "product_title": "MacBook Pro 14-inch",
         "product_image": "https://i.ibb.co.com/CmPcJny/Mac-Book-Pro-14-inch.webp",
         "category": "MacBooks",
@@ -255,22 +239,6 @@
         ],
         "availability": true,
         "rating": 4.9
-      },
-      {
-        "product_id": "15",
-        "product_title": "Anker Portable Charger",
-        "product_image": "https://example.com/images/anker_charger.jpg",
-        "category": "Accessories",
-        "price": 29.99,
-        "description": "High-capacity portable charger with PowerIQ technology.",
-        "Specification": [
-          "10000mAh capacity",
-          "PowerIQ",
-          "Dual USB ports",
-          "Compact design"
-        ],
-        "availability": true,
-        "rating": 4.6
       },
       {
         "product_id": "16",

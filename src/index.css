@@ -6,5 +6,7 @@
 
 .active{
   text-decoration: underline;
-  font-weight: 600;
+  font-weight: 700;
+  background-color: #9333EA;
+  color: white;
 }

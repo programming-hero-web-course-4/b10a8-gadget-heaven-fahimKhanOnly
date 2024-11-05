@@ -2,7 +2,7 @@ import { useParams, useLoaderData } from "react-router-dom";
 import { FaRegStar } from "react-icons/fa";
 import { IoCartOutline, IoStar } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
-
+import { addToCart } from "../cartStorage";
 
 
 const ProductDetails = () => {
@@ -10,8 +10,13 @@ const ProductDetails = () => {
     let params = useParams();
 
     let findRealData = data.products.find(info => info.product_id == params.product_id);
+    let {product_id, product_title, product_image, price, description, availability, Specification, rating} = findRealData;
 
-    let {product_title, product_image, price, description, availability, Specification, rating} = findRealData;
+
+
+    let handleCartItem = id => {
+        addToCart(id);
+    }
     return (
         <div>
             <div className="bg-purple-600 pb-40 mx-8 pt-8 mb-96">
@@ -20,7 +25,6 @@ const ProductDetails = () => {
                         <h1 className="text-center font-extrabold text-3xl mb-3">Product Details</h1>
                         <p className="w-[810px] mx-auto text-center font-medium mb-8">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
                     </div>
-
 
                     <div className="container  flex gap-6 bg-white text-black p-6 absolute rounded-2xl">
                         <div>
@@ -46,11 +50,11 @@ const ProductDetails = () => {
                                 <FaRegStar className="text-[#F9C004] text-lg"/>
                                 <p className="px-3 font-medium text-gray-700 rounded-full bg-[#80808044]">{rating}</p>
                             </div>
+                                
                             <div className="flex gap-4 mt-3">
-                                <button className="btn rounded-full font-bold px-6 bg-purple-700 text-white flex items-center hover:border hover:border-purple-700 hover:text-black">Add To Card <IoCartOutline className="text-xl"/></button>
+                                <button onClick={() => handleCartItem(product_id)} className="btn rounded-full font-bold px-6 bg-purple-700 text-white flex items-center hover:border hover:border-purple-700 hover:text-black">Add To Card <IoCartOutline className="text-xl"/></button>
                                 <button className="border rounded-full"><FaRegHeart className="m-4"/></button>
                             </div>
-                            
                         </div>
                     </div>
                 </div>

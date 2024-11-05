@@ -42,7 +42,7 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end gap-3">
-                    <Link className="rounded-full border bg-white text-black p-2.5"><IoCartOutline className="text-lg" /></Link>
+                    <Link to="/dashboard/cart" className="rounded-full border bg-white text-black p-2.5"><IoCartOutline className="text-lg" /></Link>
                     <Link className="rounded-full border bg-white text-black p-2.5"><FaRegHeart/></Link>
                 </div>
             </div>
