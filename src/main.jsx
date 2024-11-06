@@ -1,6 +1,5 @@
 import * as React from "react";
 import { createRoot } from 'react-dom/client'
-import ErrorPage from './errorPage';
 import './index.css'
 import {
   createBrowserRouter,
@@ -15,13 +14,14 @@ import Cart from "./components/Cart/Cart";
 import Wishlist from "./components/Wishlist/Wishlist";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import ErrorPage from "./error-page";
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
-    errorElement: <ErrorPage></ErrorPage>,
+    errorElement: <ErrorPage/>,
     children: [
       {
         path: "/",
@@ -33,7 +33,7 @@ const router = createBrowserRouter([
         element: <Dashboard></Dashboard>,
       },
       {
-        path: "/products/:product_id",
+        path: "/product/:product_id",
         element: <ProductDetails></ProductDetails>,
         loader: () => fetch("products.json"),
       },

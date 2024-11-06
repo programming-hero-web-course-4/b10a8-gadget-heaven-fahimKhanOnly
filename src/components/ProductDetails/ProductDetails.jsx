@@ -12,7 +12,7 @@ const ProductDetails = () => {
     let productId = storedData.map(check => check.product_id);
 
     let findRealData = data.products.find(info => info.product_id == params.product_id);
-    let {product_title, product_image, price, description, availability, Specification, rating} = findRealData;
+    let {product_id, product_title, product_image, price, description, availability, Specification, rating} = findRealData;
     
     let handleCartItem = id => addToCart(id);
     let handleWishlist = (id) => addToWishlist(id);
@@ -53,7 +53,7 @@ const ProductDetails = () => {
                                 
                             <div className="flex gap-4 mt-3">
                                 <button onClick={() => handleCartItem(findRealData)} className="btn rounded-full font-bold px-6 bg-purple-700 text-white flex items-center hover:border hover:border-purple-700 hover:text-black">Add To Card <IoCartOutline className="text-xl"/></button>
-                                <button disabled={productId.includes(params.product_id)} onClick={() => handleWishlist(findRealData, product_id)} className="btn btn-outline rounded-full hover:bg-purple-700 hover:border-none hover:text-white"><FaRegHeart/></button>
+                                <button disabled={productId.includes(product_id)} onClick={() => handleWishlist(findRealData, product_id)} className="btn btn-outline rounded-full hover:bg-purple-700 hover:border-none hover:text-white"><FaRegHeart/></button>
                             </div>
                         </div>
                     </div>
