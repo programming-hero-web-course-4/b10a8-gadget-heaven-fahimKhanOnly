@@ -1,6 +1,6 @@
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import CartItem from "../CartItem/CartItem";
-import { addToCart, getStoredData } from "../cartStorage";
+import { getStoredData } from "../cartStorage";
 import Dashboard from "../Dashboard/Dashboard";
 import { FaSortAmountDown } from "react-icons/fa";
 import successIcon from "../../assets/Group.png";
