@@ -1,12 +1,13 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { IoCartOutline } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 
 
 
 const NavBar = () => {
+    let location = useLocation().pathname;
     return (
-        <div className="bg-purple-600 mx-8 mt-8 pt-4 rounded-t-2xl">
+        <div className={location === "/" ? "bg-purple-600 mx-8 mt-8 pt-4 pb-5 rounded-t-2xl" : "mx-8 mt-8 pt-4 pb-5 rounded-t-2xl"}>
             <div className="navbar container mx-auto text-white">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -32,13 +33,13 @@ const NavBar = () => {
                         <li><NavLink to="/dashboard">Dashboard</NavLink></li>
                     </ul>
                     </div>
-                    <a className="text-2xl font-extrabold">Gadget Heaven</a>
+                    <a className={location === "/" ? "text-2xl font-extrabold" : "text-2xl text-black font-extrabold"}>Gadget Heaven</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu gap-10 menu-horizontal px-1">
-                        <NavLink className="font-medium" to="/">Home</NavLink>
-                        <NavLink className="font-medium" to="/statistics">Statistics</NavLink>
-                        <NavLink className="font-medium" to="/dashboard">Dashboard</NavLink>
+                    <ul className="menu menu-horizontal items-center px-1 gap-10 text-black">
+                        <NavLink className={({ isActive }) => (location === "/" ? 'home' : 'font-medium')} to="/">Home</NavLink>
+                        <NavLink className={({ isActive }) => (location === "/statistics" ? "others text-purple-700" : location === "/" ? 'font-medium text-white' : "font-medium")} to="/statistics">Statistics</NavLink>
+                        <NavLink className={({ isActive }) => (location === "/dashboard" ? "others text-purple-700" : location === "/" ? 'font-medium text-white' : "font-medium")} to="/dashboard">Dashboard</NavLink>
                     </ul>
                 </div>
                 <div className="navbar-end gap-3">

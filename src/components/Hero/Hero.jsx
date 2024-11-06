@@ -1,9 +1,11 @@
+import { useLocation } from 'react-router-dom';
 import heroImg from '../../assets/banner.jpg';
 
 
 const Hero = () => {
+    const location = useLocation().pathname;
     return (
-        <div className="bg-purple-600 pb-60 mx-8 text-white rounded-b-2xl">
+        <div className={location === "/" ? "bg-purple-600 pb-60 mx-8 text-white rounded-b-2xl" : "bg-purple-600 pb-60 pt-1 text-white"}>
             <div className="hero">
                 <div className="hero-content relative text-center">
                     <div className="">
@@ -21,3 +23,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
+// bg-purple-600 pb-60 mx-8 text-white rounded-b-2xl

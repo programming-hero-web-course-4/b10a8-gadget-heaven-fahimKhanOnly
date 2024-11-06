@@ -5,8 +5,16 @@
 
 
 .active{
-  text-decoration: underline;
-  font-weight: 700;
-  background-color: #9333EA;
-  color: white;
+    background-color: #9333EA;
+    color: white;
+}
+.home{
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+}
+.others{
+    background-color: #f1f1f1;
+    font-weight: bold;
+    text-decoration: underline;
 }

@@ -4,6 +4,7 @@ import './index.css'
 import {
   createBrowserRouter,
   RouterProvider,
+  useLocation,
 } from "react-router-dom";
 import Root from './components/Root/Root';
 import Dashboard from "./components/Dashboard/Dashboard";

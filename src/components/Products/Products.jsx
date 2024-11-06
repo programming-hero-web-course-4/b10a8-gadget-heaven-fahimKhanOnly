@@ -2,7 +2,6 @@ import { NavLink } from "react-router-dom";
 import Product from "../Product/Product";
 import { useEffect, useState } from "react";
 
-
 const Products = ({data}) => {
     let [getItem, setItem] = useState([]);
 
@@ -18,7 +17,7 @@ const Products = ({data}) => {
             <div className="flex gap-6 justify-center">
                 <div className="flex flex-col h-fit items-center gap-7 p-5 rounded-xl border bg-white">
                     <NavLink to="/" className="btn w-full rounded-full">All</NavLink>
-                    {categories.map((category, idx) => <NavLink to={`/${category}`} className="btn text-start w-full rounded-full hover:bg-[#ae67f1] hover:text-white" key={idx}>{category}</NavLink>)}
+                    {categories.map((category, idx) => <NavLink to={`/${category}`} className="btn font-medium text-start w-full rounded-full hover:bg-[#ae67f1" key={idx}>{category}</NavLink>)}
                 </div>
                 <div className="lg:grid grid-cols-3 gap-6">
                     {getItem.map(productData => <Product key={productData.product_id} data={productData}></Product>)}
