@@ -31,6 +31,7 @@ const NavBar = () => {
                         <li><NavLink to="/">Home</NavLink></li>
                         <li><NavLink to="/statistics">Statistics</NavLink></li>
                         <li><NavLink to="/dashboard">Dashboard</NavLink></li>
+                        <li><NavLink to="/faq">FAQ</NavLink></li>
                     </ul>
                     </div>
                     <a className={location === "/" ? "text-2xl font-extrabold" : "text-2xl text-black font-extrabold"}>Gadget Heaven</a>
@@ -40,6 +41,9 @@ const NavBar = () => {
                         <NavLink className={({ isActive }) => (location === "/" ? 'home' : 'font-medium')} to="/">Home</NavLink>
                         <NavLink className={({ isActive }) => (location === "/statistics" ? "others text-purple-700" : location === "/" ? 'font-medium text-white' : "font-medium")} to="/statistics">Statistics</NavLink>
                         <NavLink className={({ isActive }) => (location === "/dashboard" ? "others text-purple-700" : location === "/" ? 'font-medium text-white' : "font-medium")} to="/dashboard">Dashboard</NavLink>
+
+
+                        <NavLink className={({ isActive }) => (location === "/faq" ? "others text-purple-700" : location === "/" ? 'font-medium text-white' : "font-medium")} to="/faq">FAQ</NavLink>
                     </ul>
                 </div>
                 <div className="navbar-end gap-3">

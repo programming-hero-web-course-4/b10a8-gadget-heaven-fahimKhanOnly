@@ -16,6 +16,7 @@ import Wishlist from "./components/Wishlist/Wishlist";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ErrorPage from "./error-page";
+import Faq from "./components/Products/Faq/Faq";
 
 
 const router = createBrowserRouter([
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
         path: "/wishlist",
         element: <Wishlist></Wishlist>,
         loader: () => fetch("products.json"),
+      },
+      {
+        path: "/faq",
+        element: <Faq></Faq>
       }
     ],
   }
