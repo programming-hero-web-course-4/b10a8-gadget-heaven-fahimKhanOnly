@@ -46,8 +46,8 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end gap-3">
-                    <Link to="/dashboard/cart" className="relative rounded-full border bg-white text-black p-3"><IoCartOutline className=" text-lg" /><span className="text-red-700 font-bold absolute -top-1 right-1">{numberOfCart}</span></Link>
-                    <Link to="/dashboard/wishlist" className="relative rounded-full border bg-white text-black p-3"><FaRegHeart/><span className="text-red-700 font-bold absolute -top-1 right-1">{numberOfWishlist}</span></Link>
+                    <Link to="/cart" className="relative rounded-full border bg-white text-black p-3"><IoCartOutline className=" text-lg" /><span className="text-red-700 font-bold absolute -top-1 right-1">{numberOfCart}</span></Link>
+                    <Link to="/wishlist" className="relative rounded-full border bg-white text-black p-3"><FaRegHeart/><span className="text-red-700 font-bold absolute -top-1 right-1">{numberOfWishlist}</span></Link>
                 </div>
             </div>
         </div>

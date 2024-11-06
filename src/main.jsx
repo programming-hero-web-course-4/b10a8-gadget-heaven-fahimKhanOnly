@@ -30,8 +30,8 @@ const router = createBrowserRouter([
         loader: () => fetch("products.json"),
       },
       {
-        path: "/dashboard",
-        element: <Dashboard></Dashboard>
+        path: "/dashboard/",
+        element: <Dashboard></Dashboard>,
       },
       {
         path: "/products/:product_id",
@@ -44,12 +44,12 @@ const router = createBrowserRouter([
         loader: () => fetch("products.json"),
       },
       {
-        path: "/dashboard/cart",
+        path: "/cart",
         element: <Cart></Cart>,
         loader: () => fetch("products.json"),
       },
       {
-        path: "/dashboard/wishlist",
+        path: "/wishlist",
         element: <Wishlist></Wishlist>,
         loader: () => fetch("products.json"),
       }
