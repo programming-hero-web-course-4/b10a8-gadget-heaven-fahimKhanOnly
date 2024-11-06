@@ -37,7 +37,7 @@ const Cart = () => {
                         <h3 className="font-extrabold text-2xl mt-4">Payment Successful</h3>
                         <div className="divider"></div>
                         <p className="py-3 font-medium text-gray-600">Thanks for purchasing.</p>
-                        <p className="font-medium text-gray-600">Total: ${totalCost}</p>
+                        <p className="font-medium text-gray-600">Total: ${totalCost.toFixed(2)}</p>
                         <div className="modal-action w-full">
                         <form method="dialog" className="w-full">
                             <button onClick={() => navigate("/")} className="btn rounded-full font-bold w-full">Close</button>

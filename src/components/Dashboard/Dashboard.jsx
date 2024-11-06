@@ -1,9 +1,12 @@
+import { Helmet } from "react-helmet";
 import { NavLink } from "react-router-dom";
 
 const Dashboard = () => {
-    document.title = "Dashboard | Gadget Heaven";
     return (
         <div>
+            <Helmet>
+                <title>Dashboard | Gadget Heaven</title>
+            </Helmet>
             <div className="bg-purple-600 text-white mx-8">
                 <div className="container mx-auto py-7">
                     <h1 className="text-center font-extrabold text-3xl">Dashboard</h1>
